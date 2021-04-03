@@ -1,0 +1,75 @@
+@font-face{
+    font-family: work_sans;
+    src: url('./WorkSans.woff');
+}
+@font-face{
+    font-family: work_sans;
+    src: url('./WorkSans.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: work_sans;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 22rem;
+    height: 30rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img-container{
+    width: 4.4em;
+    height: 4.4em;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+input{
+    width: 100%;
+    padding: .8rem .2rem;
+    border: none;
+    border-bottom: 2px solid rgb(224, 224, 224);
+    outline: none;
+}
+input::placeholder{
+    font-size: .8em;
+    color: rgb(156, 156, 156);
+}
+input[type=submit]{
+    color: #fff;
+    background-color: rgb(60, 184, 97);
+    padding: .6em .4em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.forgot{
+    font-size: .7em;
+    color: rgb(168, 167, 167);
+    align-self: flex-start;
+    margin-top: 20px;
+}
+.forgot li{
+    margin-top: 10px;
+}
+.forgot a{
+    color: rgb(29, 167, 36);
+    text-decoration: none;
+}
